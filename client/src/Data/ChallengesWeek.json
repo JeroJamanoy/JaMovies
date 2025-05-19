@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "titulo": "Maratón de Clásicos",
+    "descripcion": "Sumérgete en la magia del cine de antaño. Este reto te invita a descubrir la riqueza de las películas estrenadas antes de 1980, que han marcado generaciones. Mira al menos 3 clásicos y déjate envolver por sus historias y estilo únicos. ¿Te atreves a revivir estas joyas del cine y ampliar tu cultura cinematográfica?",
+    "imagen": "ClasicMovies.webp",
+    "usuariosCumplieron": 0
+  },
+  {
+    "id": 2,
+    "titulo": "Un idioma diferente",
+    "descripcion": "Explora nuevas culturas a través del cine. En este reto, te proponemos ver una película en un idioma que no sea inglés ni español para abrir tu mente a otras formas de expresión y narración. Descubre historias que quizás nunca habías considerado y amplía tu horizonte cultural. ¿Listo para romper barreras lingüísticas y disfrutar de una experiencia distinta?",
+    "imagen": "LanguageDiferent.webp",
+    "usuariosCumplieron": 0
+  },
+  {
+    "id": 3,
+    "titulo": "Actor Camaleónico",
+    "descripcion": "Admira la versatilidad y talento de los actores. El desafío consiste en ver 2 películas protagonizadas por el mismo actor en roles completamente distintos, para apreciar su capacidad de transformarse y adaptarse a diferentes personajes. Observa cómo cambia su actuación y déjate sorprender. ¿Puedes identificar al actor y cómo se reinventa?",
+    "imagen": "Actor2Films.webp",
+    "usuariosCumplieron": 0
+  },
+  {
+    "id": 4,
+    "titulo": "Basada en hechos reales",
+    "descripcion": "Conéctate con historias inspiradas en la realidad. Este reto te invita a ver una película que narre hechos verdaderos, acercándote a vivencias y acontecimientos reales que han marcado la historia. Aprende, emociona y reflexiona con estas narrativas que trascienden la ficción. ¿Aceptas el reto de conocer historias reales a través del cine?",
+    "imagen": "TrueEvents.webp",
+    "usuariosCumplieron": 0
+  },
+  {
+    "id": 5,
+    "titulo": "Solo una palabra",
+    "descripcion": "Sencillez y poder en un título. Este reto consiste en ver una película cuyo título tenga solo una palabra, para descubrir cómo con poco se puede transmitir mucho. Explora cómo un simple término puede condensar toda la esencia de una historia. ¿Te animas a encontrar y disfrutar de ese filme que lo dice todo con una sola palabra?",
+    "imagen": "OneWordTitle.webp",
+    "usuariosCumplieron": 0
+  },
+  {
+    "id": 6,
+    "titulo": "Película Infravalorada",
+    "descripcion": "Encuentra tesoros ocultos. Aquí te desafiamos a ver una película con una calificación menor a 6.5 en IMDb, pero que llame tu atención por su argumento, actuaciones o estilo. Rompe con los prejuicios de las notas y dale una oportunidad a una obra que podría sorprenderte. ¿Te animas a descubrir un diamante en bruto?",
+    "imagen": "UnderratedMovie.webp",
+    "usuariosCumplieron": 0
+  },
+  {
+    "id": 7,
+    "titulo": "Animación para adultos",
+    "descripcion": "No todo lo animado es para niños. Este reto te invita a ver una película animada dirigida a un público adulto, con temáticas y narrativas maduras que ofrecen perspectivas profundas y variadas. Disfruta de la animación desde un enfoque diferente. ¿Estás listo para cambiar tu percepción sobre este género?",
+    "imagen": "AdultsAnimation.webp",
+    "usuariosCumplieron": 0
+  },
+  {
+    "id": 8,
+    "titulo": "Un lugar, una historia",
+    "descripcion": "La concentración de la trama en un solo lugar puede ser muy poderosa. Este reto consiste en ver una película que transcurra casi completamente en un solo escenario, donde los personajes y la narrativa se desarrollan intensamente en ese espacio limitado. Experimenta la atmósfera y la tensión que crea esta fórmula. ¿Te atreves a vivir esta experiencia cinematográfica única?",
+    "imagen": "OnlyPlace.webp",
+    "usuariosCumplieron": 0
+  },
+  {
+    "id": 9,
+    "titulo": "Película de culto",
+    "descripcion": "Sumérgete en el mundo de las películas que, aunque no fueron grandes éxitos al principio, han ganado un estatus especial entre sus seguidores. Este reto te invita a descubrir una película de culto que ha dejado huella por su originalidad o impacto. Únete a la comunidad de fans y conoce por qué esta obra es tan especial. ¿Te animas a convertirte en parte del culto?",
+    "imagen": "CultMovie.webp",
+    "usuariosCumplieron": 0
+  },
+  {
+    "id": 10,
+    "titulo": "Versión Original vs. Remake",
+    "descripcion": "Explora cómo las historias pueden cambiar con el tiempo. En este reto, mira una película original y luego su remake para comparar y contrastar las diferencias en dirección, actuación y narrativa. Reflexiona sobre qué versión te gusta más y por qué. ¿Te atreves a decidir cuál se queda en tu memoria?",
+    "imagen": "OriginalRemake.webp",
+    "usuariosCumplieron": 0
+  }
+]

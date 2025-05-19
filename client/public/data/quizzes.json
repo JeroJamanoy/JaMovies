@@ -1,0 +1,114 @@
+{
+  "quizzes": [
+    {
+      "category": "Clásicos del Cine",
+      "image": "/images/ClasicMoviesQuizz.webp",
+      "description": "Ponte a prueba con preguntas sobre los grandes clásicos del cine.",
+      "questions": [
+        {
+          "question": "¿Quién dirigió Ciudadano Kane?",
+          "options": ["Alfred Hitchcock", "Orson Welles", "Stanley Kubrick", "Billy Wilder"],
+          "correct": "Orson Welles"
+        },
+        {
+          "question": "¿En qué año se estrenó Casablanca?",
+          "options": ["1942", "1951", "1939", "1945"],
+          "correct": "1942"
+        },
+        {
+          "question": "¿Cuál de estos actores NO aparece en Lo que el viento se llevó?",
+          "options": ["Clark Gable", "Vivien Leigh", "Humphrey Bogart", "Leslie Howard"],
+          "correct": "Humphrey Bogart"
+        }
+      ]
+    },
+    {
+      "category": "Películas Populares de los 2000",
+      "image": "/images/2000Movies.webp",
+      "description": "Revive la nostalgia del cine de los 2000 con este divertido quiz.",
+      "questions": [
+        {
+          "question": "¿Qué película ganó el Oscar a Mejor Película en 2004?",
+          "options": ["El Señor de los Anillos: El Retorno del Rey", "Secreto en la montaña", "Chicago", "Gladiador"],
+          "correct": "El Señor de los Anillos: El Retorno del Rey"
+        },
+        {
+          "question": "¿Cómo se llama el personaje de Johnny Depp en Piratas del Caribe?",
+          "options": ["Will Turner", "Jack Sparrow", "Barbossa", "Davy Jones"],
+          "correct": "Jack Sparrow"
+        },
+        {
+          "question": "¿Quién protagonizó El diario de una pasión?",
+          "options": ["Leonardo DiCaprio y Kate Winslet", "Ryan Gosling y Rachel McAdams", "James Marsden y Anne Hathaway", "Channing Tatum y Amanda Seyfried"],
+          "correct": "Ryan Gosling y Rachel McAdams"
+        }
+      ]
+    },
+    {
+      "category": "Películas de Terror",
+      "image": "/images/HorrorMovies.webp",
+      "description": "¿Te atreves a enfrentar tus miedos? Prueba con este quiz de terror.",
+      "questions": [
+        {
+          "question": "¿Cuál es el nombre del asesino en Scream?",
+          "options": ["Ghostface", "Leatherface", "Michael Myers", "Jigsaw"],
+          "correct": "Ghostface"
+        },
+        {
+          "question": "¿Qué película popular de terror está inspirada en los archivos de los Warren?",
+          "options": ["El exorcista", "La maldición", "El conjuro", "Actividad paranormal"],
+          "correct": "El conjuro"
+        },
+        {
+          "question": "¿En qué película aparece el personaje Pennywise?",
+          "options": ["Scream", "It", "Saw", "Insidious"],
+          "correct": "It"
+        }
+      ]
+    },
+    {
+      "category": "Cine Animado",
+      "image": "/images/AnimatedMovies.webp",
+      "description": "Ideal para fans del cine animado, desde Pixar hasta Studio Ghibli.",
+      "questions": [
+        {
+          "question": "¿Cuál fue la primera película animada en ganar un Oscar a Mejor Película Animada?",
+          "options": ["Shrek", "Toy Story", "El Rey León", "Monsters Inc."],
+          "correct": "Shrek"
+        },
+        {
+          "question": "¿Qué estudio produjo Mi vecino Totoro?",
+          "options": ["Pixar", "DreamWorks", "Studio Ghibli", "Blue Sky"],
+          "correct": "Studio Ghibli"
+        },
+        {
+          "question": "¿Cómo se llama la madre de Nemo en Buscando a Nemo?",
+          "options": ["Coral", "Perla", "Dory", "Bella"],
+          "correct": "Coral"
+        }
+      ]
+    },
+    {
+      "category": "Universo de Superhéroes",
+      "image": "/images/HeroMovies.webp",
+      "description": "Desde Marvel hasta DC: prueba cuánto sabes sobre superhéroes.",
+      "questions": [
+        {
+          "question": "¿Qué piedra del infinito obtiene Vision en Avengers?",
+          "options": ["Piedra del alma", "Piedra de la mente", "Piedra del tiempo", "Piedra del poder"],
+          "correct": "Piedra de la mente"
+        },
+        {
+          "question": "¿Quién fue el primer actor en interpretar a Spider-Man en el cine moderno?",
+          "options": ["Andrew Garfield", "Tobey Maguire", "Tom Holland", "Nicholas Hammond"],
+          "correct": "Tobey Maguire"
+        },
+        {
+          "question": "¿Cómo se llama la ciudad protegida por Batman?",
+          "options": ["Metrópolis", "Star City", "Gotham", "Central City"],
+          "correct": "Gotham"
+        }
+      ]
+    }
+  ]
+}
