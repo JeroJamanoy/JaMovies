@@ -34,15 +34,15 @@ function handleStart(quiz) {
             <div class="quiz-container flex gap-6 overflow-x-auto scrollbar-custom scroll-smooth px-8">
                 <div v-for="(quiz, index) in quizzes" :key="quiz.category"
                     class="quiz-card relative rounded-xl overflow-hidden text-white shadow-lg flex flex-col">
-                    
+
                     <div class="absolute inset-0 bg-cover bg-center blur-sm scale-110 opacity-50"
                         :style="{ backgroundImage: `url(${quiz.image})` }"></div>
 
-                    
+
                     <div class="absolute inset-0"
                         :style="{ backgroundColor: backgroundStyles[index % backgroundStyles.length].overlay }"></div>
 
-                    
+
                     <div class="relative z-10 p-4 flex flex-col h-full justify-between">
                         <div class="flex items-center space-x-2 mb-4">
                             <img src="../../../assets/Logo.png" class="w-12 h-12" />
@@ -61,7 +61,8 @@ function handleStart(quiz) {
 
                         <!-- Botón y métricas -->
                         <div class="mt-6">
-                            <button @click="handleStart(quiz)" class="w-full flex items-center justify-center border border-white py-2 rounded-full hover:bg-white hover:text-purple-700 transition">
+                            <button @click="handleStart(quiz)"
+                                class="w-full flex items-center justify-center border border-white py-2 rounded-full hover:bg-white hover:text-purple-700 transition">
                                 PLAY NOW
                                 <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
                                     <path
@@ -84,36 +85,39 @@ function handleStart(quiz) {
 }
 
 .scrollbar-custom {
-  -ms-overflow-style: none;  /* IE y Edge */
-  scrollbar-width: none;     /* Firefox */
+    -ms-overflow-style: none;
+    /* IE y Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 .scrollbar-custom::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+    display: none;
+    /* Chrome, Safari, Opera */
 }
 
 /* Mostrar barra minimalista en pantallas grandes */
 @media (min-width: 1024px) {
-  .scrollbar-custom {
-    scrollbar-width: thin;
-    scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
-  }
+    .scrollbar-custom {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
+    }
 
-  .scrollbar-custom::-webkit-scrollbar {
-    height: 6px;
-  }
+    .scrollbar-custom::-webkit-scrollbar {
+        height: 6px;
+    }
 
-  .scrollbar-custom::-webkit-scrollbar-track {
-    background: transparent;
-  }
+    .scrollbar-custom::-webkit-scrollbar-track {
+        background: transparent;
+    }
 
-  .scrollbar-custom::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 8px;
-  }
+    .scrollbar-custom::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 8px;
+    }
 
-  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(255, 255, 255, 0.6);
-  }
+    .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
 }
 </style>
