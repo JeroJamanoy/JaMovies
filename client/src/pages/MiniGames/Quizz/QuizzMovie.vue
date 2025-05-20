@@ -31,7 +31,7 @@ function handleStart(quiz) {
         <h1 class="text-5xl font-bold text-center text-white pt-10">Quizz Movie</h1>
 
         <div class="relative pt-10">
-            <div class="quiz-container flex gap-6 overflow-x-auto scrollbar-hide scroll-smooth px-8">
+            <div class="quiz-container flex gap-6 overflow-x-auto scrollbar-custom scroll-smooth px-8">
                 <div v-for="(quiz, index) in quizzes" :key="quiz.category"
                     class="quiz-card relative rounded-xl overflow-hidden text-white shadow-lg flex flex-col">
                     
@@ -81,5 +81,39 @@ function handleStart(quiz) {
     min-width: 320px;
     width: 350px;
     height: 550px;
+}
+
+.scrollbar-custom {
+  -ms-overflow-style: none;  /* IE y Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Mostrar barra minimalista en pantallas grandes */
+@media (min-width: 1024px) {
+  .scrollbar-custom {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
 }
 </style>
