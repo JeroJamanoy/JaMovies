@@ -27,10 +27,9 @@ export const register= async (req, res) =>{
             name: userSaved.name,
             email: userSaved.email,
             number_phone: userSaved.number_phone,
-
         });
 
-    }catch (error) {
+    }catch (e) {
         return res.status(500).json({message: e.message});
     }
 };

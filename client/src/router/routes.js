@@ -8,7 +8,8 @@ import ChallengeWeek from '../pages/MiniGames/ChallengeWeek.vue'
 import MovieRandom from '../pages/MiniGames/MovieRandom.vue'
 import QuizzMovie from '../pages/MiniGames/Quizz/QuizzMovie.vue'
 import QuizzGame from '../pages/MiniGames/Quizz/QuizzGame.vue'
-
+import Login from '../components/Login.vue'
+import Register from '../pages/Register.vue'
 
 
 
@@ -21,7 +22,9 @@ const routes = [
     { path : '/minijuegos/retoSemanal', component: ChallengeWeek },
     { path : '/minijuegos/retoAleatorio', component: MovieRandom },
     { path : '/minijuegos/listaquizz', component: QuizzMovie },
-    {path : '/minijuegos/quizzlist/quizz', component: QuizzGame},
+    { path : '/minijuegos/quizzlist/quizz', component: QuizzGame},
+    { path : '/login', component: Login},
+    { path : '/Register', component: Register}
 ]
 
 const router = createRouter({
