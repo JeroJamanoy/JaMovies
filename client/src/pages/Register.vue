@@ -1,5 +1,5 @@
 <template>
-    <div class="text-white p-4 max-w-md mx-auto">
+    <div class="text-white p-4 max-w-md mx-auto pt-20">
         <h2 class="text-xl font-bold mb-4">Registro</h2>
         <form @submit.prevent="handleRegister">
             <input v-model="userid" placeholder="Usuario" class="w-full mb-2 p-2 rounded text-black" />

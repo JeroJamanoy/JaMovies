@@ -147,13 +147,14 @@ function scrollDerechaProximas() {
 
                     <!-- Contenedor con scroll horizontal -->
                     <div ref="filaPopulares" class="flex gap-4 overflow-x-auto scrollbar-hide scroll-smooth px-8">
-                        <div v-for="p in populares" :key="p.id"
-                            class="w-40 min-w-[10rem] bg-gray-800 rounded-lg overflow-hidden shadow">
+                        <router-link :to="`/movies/${p.id}`"
+                            class="w-40 min-w-[10rem] bg-gray-800 rounded-lg overflow-hidden shadow"
+                            v-for="p in populares" :key="p.id">
                             <img :src="`https://image.tmdb.org/t/p/w500${p.poster_path}`" alt="Póster" />
                             <div class="p-2">
                                 <h3 class="text-sm font-semibold truncate">{{ p.title }}</h3>
                             </div>
-                        </div>
+                        </router-link>
                     </div>
 
                     <!-- Botón Derecha -->
@@ -182,14 +183,17 @@ function scrollDerechaProximas() {
 
                     <!-- Contenedor con scroll horizontal -->
                     <div ref="filaCartelera" class="flex gap-4 overflow-x-auto scrollbar-hide scroll-smooth px-8">
-                        <div v-for="p in cartelera" :key="p.id"
-                            class="w-40 min-w-[10rem] bg-gray-800 rounded-lg overflow-hidden shadow">
+                        <router-link :to="`/movies/${p.id}`"
+                            class="w-40 min-w-[10rem] bg-gray-800 rounded-lg overflow-hidden shadow"
+                            v-for="p in cartelera" :key="p.id">
                             <img :src="`https://image.tmdb.org/t/p/w500${p.poster_path}`" alt="Póster" />
                             <div class="p-2">
                                 <h3 class="text-sm font-semibold truncate">{{ p.title }}</h3>
                             </div>
-                        </div>
+                        </router-link>
                     </div>
+
+
 
                     <!-- Botón Derecha -->
                     <button @click="scrollDerechaCartelera"
@@ -211,28 +215,33 @@ function scrollDerechaProximas() {
                     <button @click="scrollIzquierdaProximas"
                         class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-2 shadow hover:bg-black transition">
                         <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tbGVmdC1pY29uIGx1Y2lkZS1jaGV2cm9uLWxlZnQiPjxwYXRoIGQ9Im0xNSAxOC02LTYgNi02Ii8+PC9zdmc+"
-                        class="w-4 h-4 transition hover:invert" />
+                            class="w-4 h-4 transition hover:invert" />
                     </button>
 
                     <!-- Contenedor con scroll horizontal -->
                     <div ref="filaProximas" class="flex gap-4 overflow-x-auto scrollbar-hide scroll-smooth px-8">
-                        <div v-for="p in proximas" :key="p.id"
-                            class="w-40 min-w-[10rem] bg-gray-800 rounded-lg overflow-hidden shadow">
+                        <router-link :to="`/movies/${p.id}`"
+                            class="w-40 min-w-[10rem] bg-gray-800 rounded-lg overflow-hidden shadow"
+                            v-for="p in proximas" :key="p.id">
                             <img :src="`https://image.tmdb.org/t/p/w500${p.poster_path}`" alt="Póster" />
                             <div class="p-2">
                                 <h3 class="text-sm font-semibold truncate">{{ p.title }}</h3>
                             </div>
-                        </div>
+                        </router-link>
                     </div>
 
                     <!-- Botón Derecha -->
                     <button @click="scrollDerechaProximas"
                         class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-2 shadow hover:bg-black transition">
                         <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tcmlnaHQtaWNvbiBsdWNpZGUtY2hldnJvbi1yaWdodCI+PHBhdGggZD0ibTkgMTggNi02LTYtNiIvPjwvc3ZnPg=="
-                        class="w-4 h-4 transition hover:invert" />
+                            class="w-4 h-4 transition hover:invert" />
                     </button>
                 </div>
             </div>
+        </div>
+
+        <div>
+            <p class="text-center pt-20">Jeronimo Jamanoy 2025</p>
         </div>
     </div>
 </template>

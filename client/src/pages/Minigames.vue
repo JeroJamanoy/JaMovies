@@ -49,7 +49,7 @@ import QuizzMovies from '../assets/MiniGames/QuizzMovies.webp'
                     <div class="aspect-[9/16] w-full">
                         <img :src="GuessEscene" alt="Adivina el Escenario" class="w-full h-full object-cover" />
                     </div>
-                    <h2 class="text-xl font-semibold text-gray-700 text-center py-3">Adivina el Escenario</h2>
+                    <h2 class="text-xl font-semibold text-gray-700 text-center py-3">Adivina el Trailer</h2>
                 </div>
             </RouterLink>
         </div>

@@ -10,6 +10,7 @@ import QuizzMovie from '../pages/MiniGames/Quizz/QuizzMovie.vue'
 import QuizzGame from '../pages/MiniGames/Quizz/QuizzGame.vue'
 import Login from '../components/Login.vue'
 import Register from '../pages/Register.vue'
+import MoviesInfo from '../pages/MoviesInfo.vue'
 
 
 
@@ -24,7 +25,8 @@ const routes = [
     { path : '/minijuegos/listaquizz', component: QuizzMovie },
     { path : '/minijuegos/quizzlist/quizz', component: QuizzGame},
     { path : '/login', component: Login},
-    { path : '/Register', component: Register}
+    { path : '/register', component: Register},
+    { path: '/movies/:id', component: MoviesInfo, props: true },
 ]
 
 const router = createRouter({
